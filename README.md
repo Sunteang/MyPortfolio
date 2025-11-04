@@ -20,7 +20,40 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Initial Project
+
+# Create NextJs
+
+npx create-next-app@latest my-portfolio --typescript --eslint --app
+cd my-portfolio
+
+# Install Tailwind Css
+
+npm install tailwindcss @tailwindcss/postcss postcss
+
+## Project Structure
+
+portfolio/
+├─ app/
+│ ├─ layout.tsx
+│ ├─ page.tsx
+│ ├─ globals.css
+│ └─ components/
+│ ├─ Navbar.tsx
+│ ├─ Hero.tsx
+│ ├─ About.tsx
+│ ├─ Services.tsx
+│ ├─ Skills.tsx
+│ ├─ Portfolio.tsx
+│ ├─ Pricing.tsx
+│ ├─ Testimonials.tsx
+│ ├─ Contact.tsx
+│ └─ Footer.tsx
+├─ public/
+│ └─ (your images here)
+└─ tailwind.config.ts
+
+### -------------------------- Learn More --------------------------
 
 To learn more about Next.js, take a look at the following resources:
 

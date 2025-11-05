@@ -94,12 +94,11 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-3">
           <button
             onClick={() => handleScroll("contact")}
-            className="bg-teal-600 text-white px-5 py-2 rounded-lg hover:bg-teal-700 transition"
+            className="bg-teal-600 text-white px-5 py-2 rounded-lg hover:bg-teal-700 transition cursor-pointer"
           >
             Hire Me
           </button>
 
-          {/* 👇 LinkedIn Icon Button */}
           <a
             href={profile.socials.linkedin}
             target="_blank"
@@ -113,7 +112,7 @@ export default function Navbar() {
 
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-gray-700 text-2xl"
+          className="md:hidden text-gray-700 text-2xl cursor-pointer"
         >
           {open ? "✕" : "☰"}
         </button>
@@ -135,8 +134,8 @@ export default function Navbar() {
                   onClick={() => handleScroll(id)}
                   className={`w-full text-center py-2 font-medium transition ${
                     active === id
-                      ? "text-teal-600 font-semibold"
-                      : "text-gray-700 hover:text-teal-600"
+                      ? "text-teal-600 font-semibold cursor-pointer"
+                      : "text-gray-700 hover:text-teal-600 cursor-pointer"
                   }`}
                 >
                   {id.charAt(0).toUpperCase() + id.slice(1)}

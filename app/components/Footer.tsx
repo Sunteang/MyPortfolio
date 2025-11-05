@@ -140,7 +140,7 @@ export default function Footer() {
 
       {showBackToTop && (
         <button
-          className="fixed bottom-4 right-4 bg-teal-600 hover:bg-teal-700 p-3 rounded-full text-white shadow-lg transition-colors z-50"
+          className="fixed bottom-4 right-4 bg-teal-600 hover:bg-teal-700 p-3 rounded-full text-white shadow-lg transition-colors z-50 cursor-pointer"
           onClick={scrollToTop}
           aria-label="Back to top"
         >

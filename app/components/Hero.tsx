@@ -38,16 +38,16 @@ export default function Hero() {
           designing websites and have experience in multiple frameworks.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
+        <div className="flex flex-col sm:flex-row gap-4 items-center justify-center md:justify-start mt-8">
           <Link href="resume.pdf" target="_blank" download>
-            <button className="px-6 py-2 bg-teal-600 text-white rounded-full shadow hover:bg-teal-700 transition font-medium">
+            <button className="px-6 py-2 bg-teal-600 text-white rounded-full shadow hover:bg-teal-700 transition font-medium w-fit cursor-pointer">
               DOWNLOAD CV
             </button>
           </Link>
 
           <button
             onClick={() => handleScroll("about")}
-            className="px-6 py-2 border-2 border-gray-800 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition font-medium"
+            className="px-6 py-2 border-2 border-gray-800 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition font-medium w-fit cursor-pointer"
           >
             LEARN MORE
           </button>

@@ -74,20 +74,19 @@ export default function Portfolio() {
         </AnimatePresence>
       </div>
 
-      {/* Show More / Show Less Button */}
       {projects.length > 4 && (
         <div className="flex justify-center mt-12">
           {!isAllVisible ? (
             <button
               onClick={showMore}
-              className="px-6 py-3 bg-yellow-500 text-black font-semibold rounded-full hover:bg-yellow-600 transition-all"
+              className="px-6 py-3 bg-yellow-500 text-black font-semibold rounded-full hover:bg-yellow-600 transition-all cursor-pointer"
             >
               Show More
             </button>
           ) : (
             <button
               onClick={showLess}
-              className="px-6 py-3 bg-gray-800 text-white font-semibold rounded-full hover:bg-gray-700 transition-all"
+              className="px-6 py-3 bg-gray-800 text-white font-semibold rounded-full hover:bg-gray-700 transition-all cursor-pointer"
             >
               Show Less
             </button>

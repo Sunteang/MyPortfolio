@@ -142,7 +142,6 @@ export default function Contact() {
           </div>
         </motion.div>
 
-        {/* Form */}
         <motion.form
           onSubmit={handleSubmit}
           initial={{ opacity: 0, x: 50 }}
@@ -196,7 +195,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="w-full bg-teal-600 text-white py-3 rounded-lg hover:bg-teal-700 transition font-medium flex items-center justify-center space-x-2"
+              className="w-full bg-teal-600 text-white py-3 rounded-lg hover:bg-teal-700 transition font-medium flex items-center justify-center space-x-2 cursor-pointer"
             >
               <Send size={18} />
               <span>Send Message</span>

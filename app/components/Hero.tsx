@@ -39,7 +39,7 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 items-center justify-center md:justify-start mt-8">
-          <a href="/resume.pdf" download target="_blank" rel="noopener noreferrer">
+          <a href="/Resume.pdf" download target="_blank" rel="noopener noreferrer">
             <button className="px-6 py-2 bg-teal-600 text-white rounded-full shadow hover:bg-teal-700 transition font-medium">
               DOWNLOAD CV
             </button>
